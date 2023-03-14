@@ -85,7 +85,7 @@ const runLugares = () => {
         }
         $("#list_3_1").text(getElementInList(LUGARES, index - 1 ))
         $("#list_3_2").text(getElementInList(LUGARES, index ))
-        $("#list__3").text(getElementInList(LUGARES, index + 1 ))
+        $("#list_3_3").text(getElementInList(LUGARES, index + 1 ))
     }, 500)
 }
 
@@ -105,7 +105,6 @@ const stopLugares = () => {
     console.log('stopLugares')
     clearInterval(lugaresInterval);
     lugaresInterval = null
-
 }
 
 const reiniciar = () => {
